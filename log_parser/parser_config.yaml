@@ -1,0 +1,7 @@
+version: "1.0"
+log_dir: "../log_example/"
+file_pattern: "apache_logs.txt"
+aggregator_host: "localhost"
+aggregator_port: 5000
+scan_interval: 10  # seconds
+state_file: "parser_state.json"
